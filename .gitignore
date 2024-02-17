@@ -1,10 +1,56 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+*/node_modules/
+# See https://github.com/facebook/react-native for a good .gitignore file
+# Please note that the following .gitignore file is used by React Native.
+# It might not be appropriate for your project.
 
-/node_modules/
+# OSX
+#
+.DS_Store
+
+# node
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android/IntelliJ
+#
+*/android/build/
+*/android/local.properties
+*/android/gradle/wrapper/gradle-wrapper.properties
+.idea
+
+*/ios/Pods/
+
+# Buck
+.buckd/
+buck-out/
+
+# Xcode
+#
+**/*.xcuserdatad
+**/*.xcworkspace/xcuserdata/
+
+# Android
+#
+**/.gradle
+**/local.properties
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Jest
+#
+**/coverage/
+**/test-results/
+
+# BUCK
+buck-out/
+.buckconfig.local
+
+# Logs
+logs/

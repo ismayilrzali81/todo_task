@@ -1,4 +1,4 @@
-# Todo Backend
+# Todo Backend (for todo_back folder)
 
 This is a simple backend service for a todo application.
 
@@ -13,7 +13,7 @@ npm run start:dev
 ```
 
 
-# Todo Mobile
+# Todo Mobile  (for todo_mobile folder)
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).

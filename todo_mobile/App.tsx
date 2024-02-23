@@ -8,6 +8,7 @@ import CommonContextProvider from "./src/contexts/CommonContextProvider";
 import Toast from "react-native-toast-message";
 
 function App(): JSX.Element {
+  
   const navigationRef = useNavigationContainerRef();
 
   return (
